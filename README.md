@@ -14,7 +14,10 @@ Vim 自动化配置
 * vim >= v7.3
 
 ### 安装
-    $ cd ~/ && git clone https://github.com/582033/vim.git .vim
+    $ cd ~/
+    $ mv .vimrc .vimrc.bak
+    $ mv .vim/ .vim.bak/
+    $ git clone https://github.com/thinkinnight/vim.git .vim && cd .vim
     $ ./install.sh
     
 ### 除vim外其他个人习惯的配置
